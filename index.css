@@ -1,0 +1,22 @@
+/* Add your CSS styles here */
+.quiz-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style question options */
+.options label {
+    display: block;
+    margin: 10px 0;
+}
+
+/* Style the "Next" button */
+#next-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,53 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #2d3748;
+}
+
+nav a {
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #718096;
+}
+
+/* Main Content */
+.container {
+    max-width: 800px;
+}
+
+/* Call to Action Button */
+.btn-primary {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #3576c6;
+}
+
+/* Footer */
+footer {
+    background-color: #2d3748;
+    color: #a0aec0;
+}
+
+/* Responsive Styles (Example: Mobile First) */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 20px;
+    }
+}
